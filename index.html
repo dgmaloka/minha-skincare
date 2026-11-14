@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Configurações para iPhone -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-title" content="SkinCare">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<link rel="apple-touch-icon" href="./icon.png">
+<link rel="manifest" href="manifest.json">
+  <title>Minha SkinCare</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Minha SkinCare</h1>
+    <p id="relogio"></p>
+
+    <button type="button" id="tema">
+      🌙 Modo escuro
+    </button>
+  </header>
+
+  <main>
+
+    <section class="progresso">
+
+      <h2>Meu progresso semanal</h2>
+
+      <p id="contador">0 de 14 rotinas concluídas</p>
+
+      <div class="barra">
+        <div id="barraProgresso"></div>
+      </div>
+
+      <button type="button" id="reiniciar">
+        ↻ Reiniciar semana
+      </button>
+
+    </section>
+
+    <h2 class="titulo">Tabela de SkinCare</h2>
+
+    <div class="tabela-container">
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Manhã</th>
+            <th>Noite</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <th>Seg</th>
+            <td>
+              Mousse + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              Actine + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Ter</th>
+            <td>
+              CeraVe + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              Actine + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Qua</th>
+            <td>
+              Mousse + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              CeraVe + Labotrat
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Qui</th>
+            <td>
+              CeraVe + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              Actine + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Sex</th>
+            <td>
+              Mousse + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              Actine + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Sáb</th>
+            <td>
+              Gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              CeraVe + gelo + Labotrat
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Dom</th>
+            <td>
+              Mousse + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+            <td>
+              Barba + gelo + Minoxidil
+              <button type="button" class="concluir">Concluir</button>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
