@@ -1,4 +1,3 @@
-alert("JavaScript carregado!");
 // ELEMENTOS HTML
 
 const botoes = document.querySelectorAll(".concluir");
